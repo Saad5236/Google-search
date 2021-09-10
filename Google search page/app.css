@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'arial', sans-serif;
+}
+
+
+/*------ NAV BAR--------- */
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+
+nav ul li{
+    color: black;
+    margin-top: 3px;
+    padding: 0 8px 0 10px;
+}
+
+.appsBtn img{
+    width: 1.05em;
+    padding: 7px;
+    position: relative;
+    top: 11px;
+    left: 8px;
+}
+
+.appsBtn img:hover{
+    background-color: rgb(202, 202, 202);
+    border-radius: 2em;
+}
+
+.signInBtn a{
+    margin: 0px 8px;
+    padding: 9px 23px;
+    border: 1px solid #1a73e8;
+    border-radius: 0.3em;
+    background-color: #1a73e8;
+    color: white;   
+    font-size: 0.875em;
+}
+
+.signInBtn a:hover{
+    background-color: #3885e9;
+}
+
+.navLink{
+    font-size: 0.8125em;
+}
+
+.navLink:hover{
+    text-decoration: underline;
+}
+
+
+/* ------MAIN CONTENT----- */
+main{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 15px;
+}
+
+.logo{
+    width: 22%;
+    height:auto;
+    margin-bottom: 2%;
+}
+
+input[type="text"]{
+    width: 35em;
+    background-image: url("https://th.bing.com/th/id/OIP.BceHAxj-MAp5JnqUnXtc1QHaG0?pid=ImgDet&rs=1");
+    background-size: 1.5em;
+    background-position-x:17px;
+    background-position-y:center;
+    background-repeat: no-repeat;
+    padding: 11px 45px;
+    border-radius: 4em;
+    outline: none;
+    border: 1px solid rgb(184, 184, 184);
+    transition: 0.3s;
+}
+
+input[type="text"]:hover{
+    box-shadow: 0 2px 10px 0.1px rgb(155, 155, 155);
+}
+
+.searchBar{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.searchBar img{
+    width: 13px;
+    position: absolute;
+    top: 10px;
+    right: 23px;
+}
+
+
+
+
+/* ------BUTTONS---- */
+.buttons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1.8em;
+}
+
+.buttons .btn{
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    text-align: center;
+    border-radius: 0.2em;
+    font-size: 14px;
+}
+
+.buttons .btn:hover{
+    border: 1px solid grey;
+    box-shadow: 0 0 5px 0.05px grey;
+}
+
+/* ---OTHER LAGUAGES' LINKS-- */
+
+
+.languages{
+    position: relative;
+    top: 12%;
+}
+
+.languages .text{
+    color: #3c4043;
+    font-size: 0.8125em;
+}
+
+.languages .links a{
+    font-size: 0.8125em;
+    color: #1a0dab;
+    padding: 0 3px;
+}
+
+.languages .links a:hover{
+    text-decoration: underline;
+}
+
+
+/* ----FOOTER---- */
+
+footer{
+    margin-top: 4%;
+    background-color: rgb(241, 240, 240);
+}
+
+
+.country{
+    padding: 15px 30px;
+    font-size: 0.9375em;
+    border-bottom:1px solid rgb(212, 212, 212);
+    color: #70757a;
+}
+
+.secondNav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.secondNav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+}
+
+.secondNav ul li{
+    padding: 15px;
+    font-size: 0.875em;
+}
+
+.secondNav ul li a{
+    color: #70757a;
+}
+
+.secondNav ul li a:hover{
+    text-decoration: underline;   
+}
